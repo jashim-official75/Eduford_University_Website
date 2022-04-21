@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design|COURSE PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+   
+    <!-- HEADER PART START -->
+    <section class="sub-header">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="nav_links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+    </section>
+    <!-- HEADER PART END -->
+
+<!-- LOACTION PART START -->
+<section class="location wrapper">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233734.49720811401!2d90.39229182543778!3d23.743758976627536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9c2c3f92fe5%3A0x7400e68e8a2f857c!2sNahar%20Plaza!5e0!3m2!1sen!2sbd!4v1635433819602!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact_section wrapper">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>LOCATION</h5>
+                    <p>Head Office Nahar Plaza (Suite-701,702), 26 Sonargaon road, <br> Hatirpool, Dhaka-1000, Bangladesh.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>CONTACT US</h5>
+                    <a class="text-secondary" target="_blank" href="tel:++8801946009040">+8801946009040</a>
+                </span>
+            </div>
+            <div>
+                <i class="far fa-envelope"></i>
+                <span>
+                    <h5>Get In Touch</h5>
+                    <p>Contact@naptechgames.com</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" id="" placeholder="Enter your name" required>
+                <input type="email" name="email" id="" placeholder="Enter email address" required>
+                <input type="text" name="subject" id="" placeholder="Enter your subject" required>
+                <textarea name="mesaage" rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="primary_btn red_btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- LOACTION PART END -->
+
+    <!-- FOOTER SECTION START -->
+    <section class="footer ">
+        <div class="footer_text">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est <br> ut fuga eum totam maiores odit qui aspernatur. Earum, illo vitae.</p>
+        </div>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <span>Made By &copy; Jashim Uddin <i class="fa fa-heart"> </i> From Easy Tuturials</span>
+    </section>
+    <!-- FOOTER SECTION END -->
+      
+    <!-- SCRIPT HERE -->
+   
+    <script src="app.js"></script>
+
+   
+</body>
+</html>

@@ -1,0 +1,91 @@
+@media(max-width:700px)
+{
+    html, body {overflow-x: hidden;}
+    .text_box h1
+    {
+        font-size: 20px;
+    }
+
+    .nav_links ul li
+    {
+    display: block;
+    margin:20px 0;
+  
+    }
+    .nav_links
+    {
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        background: #f44336;
+        height: 100vh;
+        text-align: left;
+        z-index: 2;
+        transition: all 1s ease-in-out;
+    }
+    nav .fa
+    {
+        display: block;
+        font-size: 22px;
+        color:#fff;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .nav_links ul
+    {
+        padding: 30px;
+    }
+
+    .primary_btn {
+        padding: 6px 17px;
+        font-size: 11px;
+    }
+    .row
+    {
+        flex-direction: column;
+    }
+
+    .course-col
+    {
+        flex-basis: 100%;
+    }
+
+    .section_title h1 ,  .sub-header h1
+    {
+    font-size: 26px;
+    font-weight: 600;
+    }
+
+    .campus-col img
+    {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .testimonial-col
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .testimonial-col img
+    {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 5% ;
+    }
+    
+.cta h1 , .about-col h1
+{
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+}
+
+@media(max-width:1080px)
+{
+    .layer h3
+    {
+        font-size: 1em;
+    }
+}
